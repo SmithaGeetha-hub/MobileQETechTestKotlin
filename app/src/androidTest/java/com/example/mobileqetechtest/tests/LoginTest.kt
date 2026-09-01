@@ -1,12 +1,13 @@
-package com.example.mobileqetechtest
+package com.example.mobileqetechtest.tests
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.example.mobileqetechtest.base.BaseTest
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
-class LoginTest {
+class LoginTest: BaseTest() {
 
     // Write  code to initialise the JUnit test rule
     @get:Rule
